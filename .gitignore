@@ -10,3 +10,6 @@ wheels/
 .venv
 
 .env
+connection.txt
+profiles.yml
+logs/
