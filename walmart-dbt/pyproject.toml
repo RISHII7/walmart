@@ -1,5 +1,5 @@
 [project]
-name = "walmart"
+name = "walmart-dbt"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,20 +8,13 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "psycopg[binary]>=3.3.4",
-    "python-dotenv>=1.2.2",
     "dbt-core>=1.12.0",
     "dbt-databricks>=1.12.3",
 ]
 
 [project.scripts]
-walmart = "walmart:main"
+walmart-dbt = "walmart_dbt:main"
 
 [build-system]
 requires = ["uv_build>=0.12.0,<0.13.0"]
 build-backend = "uv_build"
-
-[tool.uv.workspace]
-members = [
-    "walmart-dbt",
-]
