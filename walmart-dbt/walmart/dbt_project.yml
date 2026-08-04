@@ -33,3 +33,6 @@ models:
     silver_t:
       +materialized: table
       +schema: silver_t
+    silver_b:
+      +materialized: table
+      +schema: silver_b
