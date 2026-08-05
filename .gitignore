@@ -13,3 +13,4 @@ wheels/
 connection.txt
 profiles.yml
 logs/
+airflow.cfg
